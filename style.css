@@ -1,0 +1,249 @@
+/*<- how to comment! ->*/
+
+/************** ↓ MAIN ↓ *************/
+
+body {
+    background: #0002d2;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+/*************** ↓ HEADER ↓ **************/
+
+header {
+    background-color: #800000;
+    margin-bottom: 0px;
+    border-color: #800000;
+    color: white;
+}
+
+.hgrid {
+    grid-template-areas: "ri nav";
+}
+
+.ri {
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.nav{
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#sel {
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    color: #fdd580;
+    background-color: #0002d2;
+    width: 100px;
+}
+
+#rosario {
+    color: white;
+    text-align: left;
+    font-family: 'Playball', cursive;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#am4, #p4, #cm4, #h2, #p2, #cm2 {
+    font-family: 'Crete Round', serif;
+    color: white;
+    transform-origin: right;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+}
+
+#am4:hover, #p4:hover, #cm4:hover, #h2:hover, #p2:hover, #cm2:hover {
+    color: #fdd580;
+    background-color: #0002d2;
+}
+
+#header2 {
+    display: grid;
+}
+
+.Rosario {
+    justify-self: start;
+}
+
+#d {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: cursive;
+}
+
+/************** ↓ FOOTER ↓ ***************/
+
+footer {
+    background-color: #800000;
+    align-self: bottom;
+    text-align: center;
+    position: sticky;
+    margin-bottom: -60px;
+}
+
+#photography {
+    font-family: 'Playball', cursive;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.footer{
+    align-content: center;
+    display: grid;
+}
+
+.ph {
+    justify-self: center;
+    align-self: center;
+}
+
+.ps1 {
+    justify-self: flex-start;
+    align-self: center;
+    margin-left: 10px;
+    opacity: 10%;
+}
+
+.ps2 {
+    justify-self: flex-end;
+    align-self: center;
+    margin-right: 10px;
+    opacity: 10%;
+}
+
+.fgrid {
+    align-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: grid;
+    grid-template-areas: "ps1 ph ps2";
+}
+
+.ps1:hover {
+    opacity: 100%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px;
+}
+
+.ps2:hover {
+    opacity: 100%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px;
+}
+
+/************** ↓ HOME ↓ **************/
+
+#welcome {
+    text-align: center;
+    color: #fdd580;
+    font-family: 'Playball', cursive;
+}
+
+#welcome1 {
+font-size: 72px;
+}
+
+#welcome2 {
+font-size: 54px;
+}
+    
+#intro {
+    color: #fdd580;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 25px 50px 25px;
+}
+
+TBA{
+    color: #fdd580;
+    font-family: 'Playball', cursive;
+}
+
+/************** ↓ ABOUT ME ↓ **************/
+
+#amh {
+    color: #fdd580;
+    font-family: 'Crete Round', serif;
+    margin-left: 66px;
+    margin-top: 75px;
+    font-size: 36px;
+}
+
+#amp {
+    color: #fdd580;
+    font-family: 'Architects Daughter', cursive;
+    text-align: left;
+    font-weight: 1000;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 25px;
+}
+
+.agrid {
+    display: grid;
+    grid-template-areas: "amt sp";
+}
+
+.sp {
+    margin: 50px 50px 0px 50px;
+}
+
+/************** ↓ PORTFOLIO ↓ **************/
+
+main {
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+/************** ↓ CONTACT ME ↓ **************/
+
+#cmh {
+    font-family: "Crete Round", serif;
+    font-size: 42px;
+    color: #ff9900;
+    justify-self: center;
+    text-shadow: below;
+}
+
+.form {
+    align-self: center;
+    text-align: center;
+    background-position: center;
+    display: grid;
+}
+
+form {
+    border-radius: 75px;
+    background-color: #800000;
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+input {
+    margin-bottom: 50px;
+    width: 150px;
+    display: grid;
+}
+
+#first {
+    
+}
+
+#last {
+    
+}
